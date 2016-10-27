@@ -1,0 +1,204 @@
+[18:05:41] [main/INFO]: Setting user: Kivl
+[18:05:42] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:06:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:ArmorStatusHUD, FMLFileResourcePack:AdminCommandsToolbox, FMLFileResourcePack:Advanced Genetics, FMLFileResourcePack:AE2 Stuff, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:Aroma1997Core|Helper, FMLFileResourcePack:Aroma1997's Dimensional World, FMLFileResourcePack:BD Lib, FMLFileResourcePack:Better Achievements, FMLFileResourcePack:BiblioCraft, FMLFileResourcePack:Big Reactors, FMLFileResourcePack:Biomes O' Plenty, FMLFileResourcePack:Blood Magic: Alchemical Wizardry, FMLFileResourcePack:Botania, FMLFileResourcePack:Brandon's Core, FMLFileResourcePack:BC Transport, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BC Robotics, FMLFileResourcePack:BuildCraft Compat, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:Chisel, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:ComputerCraft, FMLFileResourcePack:MineTweaker 3, FMLFileResourcePack:Custom Main Menu, FMLFileResourcePack:PTRModelLib, FMLFileResourcePack:Decocraft, FMLFileResourcePack:debug, FMLFileResourcePack:Dense Ores, FMLFileResourcePack:Ding, FMLFileResourcePack:Draconic Evolution, FMLFileResourcePack:Enchiridion, FMLFileResourcePack:Enchiridion 2, FMLFileResourcePack:EnderCore, FMLFileResourcePack:Ender IO, FMLFileResourcePack:Ender IO Addons, FMLFileResourcePack:EnderStorage, FMLFileResourcePack:Extra Cells 2, FMLFileResourcePack:ExtraTiC, FMLFileResourcePack:Extra Utilities, FMLFileResourcePack:Fast Leaf Decay, FMLFileResourcePack:Flat Signs, FMLFileResourcePack:FTBLib, FMLFileResourcePack:FTBUtilities, FMLFileResourcePack:Galacticraft Planets, FMLFileResourcePack:Galacticraft Core, FMLFileResourcePack:Garden Containers, FMLFileResourcePack:Garden Core, FMLFileResourcePack:Garden Stuff, FMLFileResourcePack:Garden Trees, FMLFileResourcePack:Thaumic NEI, FMLFileResourcePack:Hats, FMLFileResourcePack:HatStand, FMLFileResourcePack:Hardcore Questing Mode, FMLFileResourcePack:iChunUtil, FMLFileResourcePack:Iguana Tinker Tweaks, FMLFileResourcePack:In-Game wiki Mod, FMLFileResourcePack:Immersive Engineering, FMLFileResourcePack:Immersive Integration, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:INpureCore, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:Iron Chest, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:Logistics Pipes, FMLFileResourcePack:Loot Bags, FMLFileResourcePack:Mantle, FMLFileResourcePack:Marine Technlogy, FMLFileResourcePack:Mariculture, FMLFileResourcePack:Mekanism, FMLFileResourcePack:MekanismGenerators, FMLFileResourcePack:MekanismTools, FMLFileResourcePack:Mimicry, FMLFileResourcePack:Minechem, FMLFileResourcePack:MineFactory Reloaded, FMLFileResourcePack:MFR Compat: Applied Energistics, FMLFileResourcePack:MFR Compat: BuildCraft, FMLFileResourcePack:MFR Compat: ForgeMicroblock, FMLFileResourcePack:MFR Compat: IC2, FMLFileResourcePack:MFR Compat: Railcraft, FMLFileResourcePack:MFR Compat: Thaumcraft, FMLFileResourcePack:MFR Compat: Thermal Expansion, FMLFileResourcePack:MFR Compat: Tinkers' Construct, FMLFileResourcePack:MFR Compat: TwilightForest, FMLFileResourcePack:MFR Compat: Vanilla, FMLFileResourcePack:MineTweakerRecipeMaker, FMLFileResourcePack:Mod Tweaker 2, FMLFileResourcePack:More Furnaces, FMLFileResourcePack:MorePlayerModels, FMLFileResourcePack:Morpheus, FMLFileResourcePack:Natura, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Developer Tools, FMLFileResourcePack:NEI Addons: Applied Energistics 2, FMLFileResourcePack:NEI Addons: Botany, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Addons: Ex Nihilo, FMLFileResourcePack:NEI Integration, FMLFileResourcePack:Nether Portal Fix, FMLFileResourcePack:Not Enough Resources, FMLFileResourcePack:OpenBlocks, FMLFileResourcePack:OpenMods, FMLFileResourcePack:Open Modular Turrets, FMLFileResourcePack:Ore Dictionary Converter, FMLFileResourcePack:Pam's HarvestCraft, FMLFileResourcePack:PneumaticCraft, FMLFileResourcePack:Railcraft, FMLFileResourcePack:Resource Loader, FMLFileResourcePack:RFTools, FMLFileResourcePack:Roguelike Dungeons, FMLFileResourcePack:Realistic Terrain Generation, FMLFileResourcePack:Simply Jetpacks, FMLFileResourcePack:Sound Filters, FMLFileResourcePack:Storage Drawers, FMLFileResourcePack:Storage Drawers: Natura Pack, FMLFileResourcePack:TC Inventory Scanning, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Thaumcraft NEI Plugin, FMLFileResourcePack:Thermal Dynamics, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation, FMLFileResourcePack:Tinkers Construct Auto Tool Station, FMLFileResourcePack:TiC Tooltips, FMLFileResourcePack:TrashSlot, FMLFileResourcePack:The Twilight Forest, FMLFileResourcePack:UniDict, FMLFileResourcePack:Vein Miner, FMLFileResourcePack:Mod Support, FMLFileResourcePack:Waila, FMLFileResourcePack:Waila Harvestability, FMLFileResourcePack:WAILA Plugins, FMLFileResourcePack:Water Hooks, FMLFileResourcePack:AE2 Wireless Crafting Terminal, FMLFileResourcePack:Witchery, FMLFileResourcePack:Ztones, FMLFileResourcePack:bspkrsCore, FMLFileResourcePack:Baubles, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin
+[18:06:20] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\mja00\Documents\Curse\Minecraft\Instances\Flock Pack (1)\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[18:06:20] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\mja00\Documents\Curse\Minecraft\Instances\Flock Pack (1)\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[18:06:20] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\mja00\Documents\Curse\Minecraft\Instances\Flock Pack (1)\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[18:06:20] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\mja00\Documents\Curse\Minecraft\Instances\Flock Pack (1)\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[18:06:20] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\mja00\Documents\Curse\Minecraft\Instances\Flock Pack (1)\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[18:06:20] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\mja00\Documents\Curse\Minecraft\Instances\Flock Pack (1)\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[18:07:19] [Sound Library Loader/INFO]: Sound engine started
+[18:07:21] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[18:07:22] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[18:07:32] [Client thread/INFO]: Created: 16x16 textures/revolvers-atlas
+[18:08:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:ArmorStatusHUD, FMLFileResourcePack:AdminCommandsToolbox, FMLFileResourcePack:Advanced Genetics, FMLFileResourcePack:AE2 Stuff, FMLFileResourcePack:Applied Energistics 2, FMLFileResourcePack:Aroma1997Core|Helper, FMLFileResourcePack:Aroma1997's Dimensional World, FMLFileResourcePack:BD Lib, FMLFileResourcePack:Better Achievements, FMLFileResourcePack:BiblioCraft, FMLFileResourcePack:Big Reactors, FMLFileResourcePack:Biomes O' Plenty, FMLFileResourcePack:Blood Magic: Alchemical Wizardry, FMLFileResourcePack:Botania, FMLFileResourcePack:Brandon's Core, FMLFileResourcePack:BC Transport, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BC Robotics, FMLFileResourcePack:BuildCraft Compat, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:Chisel, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:ComputerCraft, FMLFileResourcePack:MineTweaker 3, FMLFileResourcePack:Custom Main Menu, FMLFileResourcePack:PTRModelLib, FMLFileResourcePack:Decocraft, FMLFileResourcePack:debug, FMLFileResourcePack:Dense Ores, FMLFileResourcePack:Ding, FMLFileResourcePack:Draconic Evolution, FMLFileResourcePack:Enchiridion, FMLFileResourcePack:Enchiridion 2, FMLFileResourcePack:EnderCore, FMLFileResourcePack:Ender IO, FMLFileResourcePack:Ender IO Addons, FMLFileResourcePack:EnderStorage, FMLFileResourcePack:Extra Cells 2, FMLFileResourcePack:ExtraTiC, FMLFileResourcePack:Extra Utilities, FMLFileResourcePack:Fast Leaf Decay, FMLFileResourcePack:Flat Signs, FMLFileResourcePack:FTBLib, FMLFileResourcePack:FTBUtilities, FMLFileResourcePack:Galacticraft Planets, FMLFileResourcePack:Galacticraft Core, FMLFileResourcePack:Garden Containers, FMLFileResourcePack:Garden Core, FMLFileResourcePack:Garden Stuff, FMLFileResourcePack:Garden Trees, FMLFileResourcePack:Thaumic NEI, FMLFileResourcePack:Hats, FMLFileResourcePack:HatStand, FMLFileResourcePack:Hardcore Questing Mode, FMLFileResourcePack:iChunUtil, FMLFileResourcePack:Iguana Tinker Tweaks, FMLFileResourcePack:In-Game wiki Mod, FMLFileResourcePack:Immersive Engineering, FMLFileResourcePack:Immersive Integration, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:INpureCore, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:Iron Chest, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:Logistics Pipes, FMLFileResourcePack:Loot Bags, FMLFileResourcePack:Mantle, FMLFileResourcePack:Marine Technlogy, FMLFileResourcePack:Mariculture, FMLFileResourcePack:Mekanism, FMLFileResourcePack:MekanismGenerators, FMLFileResourcePack:MekanismTools, FMLFileResourcePack:Mimicry, FMLFileResourcePack:Minechem, FMLFileResourcePack:MineFactory Reloaded, FMLFileResourcePack:MFR Compat: Applied Energistics, FMLFileResourcePack:MFR Compat: BuildCraft, FMLFileResourcePack:MFR Compat: ForgeMicroblock, FMLFileResourcePack:MFR Compat: IC2, FMLFileResourcePack:MFR Compat: Railcraft, FMLFileResourcePack:MFR Compat: Thaumcraft, FMLFileResourcePack:MFR Compat: Thermal Expansion, FMLFileResourcePack:MFR Compat: Tinkers' Construct, FMLFileResourcePack:MFR Compat: TwilightForest, FMLFileResourcePack:MFR Compat: Vanilla, FMLFileResourcePack:MineTweakerRecipeMaker, FMLFileResourcePack:Mod Tweaker 2, FMLFileResourcePack:More Furnaces, FMLFileResourcePack:MorePlayerModels, FMLFileResourcePack:Morpheus, FMLFileResourcePack:Natura, FMLFileResourcePack:NEI Addons, FMLFileResourcePack:NEI Addons: Developer Tools, FMLFileResourcePack:NEI Addons: Applied Energistics 2, FMLFileResourcePack:NEI Addons: Botany, FMLFileResourcePack:NEI Addons: Forestry, FMLFileResourcePack:NEI Addons: Crafting Tables, FMLFileResourcePack:NEI Addons: Ex Nihilo, FMLFileResourcePack:NEI Integration, FMLFileResourcePack:Nether Portal Fix, FMLFileResourcePack:Not Enough Resources, FMLFileResourcePack:OpenBlocks, FMLFileResourcePack:OpenMods, FMLFileResourcePack:Open Modular Turrets, FMLFileResourcePack:Ore Dictionary Converter, FMLFileResourcePack:Pam's HarvestCraft, FMLFileResourcePack:PneumaticCraft, FMLFileResourcePack:Railcraft, FMLFileResourcePack:Resource Loader, FMLFileResourcePack:RFTools, FMLFileResourcePack:Roguelike Dungeons, FMLFileResourcePack:Realistic Terrain Generation, FMLFileResourcePack:Simply Jetpacks, FMLFileResourcePack:Sound Filters, FMLFileResourcePack:Storage Drawers, FMLFileResourcePack:Storage Drawers: Natura Pack, FMLFileResourcePack:TC Inventory Scanning, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Thaumcraft NEI Plugin, FMLFileResourcePack:Thermal Dynamics, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation, FMLFileResourcePack:Tinkers Construct Auto Tool Station, FMLFileResourcePack:TiC Tooltips, FMLFileResourcePack:TrashSlot, FMLFileResourcePack:The Twilight Forest, FMLFileResourcePack:UniDict, FMLFileResourcePack:Vein Miner, FMLFileResourcePack:Mod Support, FMLFileResourcePack:Waila, FMLFileResourcePack:Waila Harvestability, FMLFileResourcePack:WAILA Plugins, FMLFileResourcePack:Water Hooks, FMLFileResourcePack:AE2 Wireless Crafting Terminal, FMLFileResourcePack:Witchery, FMLFileResourcePack:Ztones, FMLFileResourcePack:bspkrsCore, FMLFileResourcePack:Baubles, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, CustomResources, FMLFileResourcePack:Carpenter's Blocks Cached Resources, resources, XU_Delegate_Pack, XU_Delegate_Pack, XU_Delegate_Pack, CustomOverridingResources
+[18:08:12] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\mja00\Documents\Curse\Minecraft\Instances\Flock Pack (1)\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[18:08:12] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\mja00\Documents\Curse\Minecraft\Instances\Flock Pack (1)\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[18:08:12] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\mja00\Documents\Curse\Minecraft\Instances\Flock Pack (1)\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[18:08:12] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\mja00\Documents\Curse\Minecraft\Instances\Flock Pack (1)\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[18:08:12] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\mja00\Documents\Curse\Minecraft\Instances\Flock Pack (1)\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[18:08:12] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: alchemicalwizardryBooks in C:\Users\mja00\Documents\Curse\Minecraft\Instances\Flock Pack (1)\mods\BloodMagic-1.7.10-1.3.3-17.jar
+[18:08:28] [Client thread/INFO]: Created: 4096x2048 textures/blocks-atlas
+[18:08:29] [Client thread/INFO]: Created: 1024x1024 textures/revolvers-atlas
+[18:08:33] [Client thread/INFO]: Created: 4096x2048 textures/items-atlas
+[18:08:35] [Sound Library Loader/INFO]: Sound engine started
+[18:08:50] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[18:08:50] [Server thread/INFO]: Generating keypair
+[18:08:58] [Server thread/INFO]: Preparing start region for level 0
+[18:09:00] [Server thread/INFO]: Preparing spawn area: 98%
+[18:09:03] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:09:03] [Server thread/INFO]: Kivl[local:E:e9fed3d4] logged in with entity id 3037 at (-14.304190848006881, 103.19077464669715, 1.9800978184673657)
+[18:09:03] [Server thread/INFO]: Kivl joined the game
+[18:09:06] [Thread-15/INFO]: [CHAT] §2MorePlayerModels§f installed. More info at §9§nClick here
+[18:09:06] [pool-3-thread-1/INFO]: [CHAT] New Logistics Pipes build found: #128
+[18:09:06] [pool-3-thread-1/INFO]: [CHAT] Use "/logisticspipes changelog" to see a changelog.
+[18:09:06] [Client thread/INFO]: [CHAT] Welcome to the server!
+[18:09:07] [Server thread/INFO]: Saving and pausing game...
+[18:09:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:09:07] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:09:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:09:07] [Server thread/INFO]: Saving chunks for level 'New World'/Asteroids
+[18:09:07] [Server thread/INFO]: Saving chunks for level 'New World'/Underdark
+[18:09:07] [Server thread/INFO]: Saving chunks for level 'New World'/Spirit World
+[18:09:07] [Server thread/INFO]: Saving chunks for level 'New World'/Torment
+[18:09:07] [Server thread/INFO]: Saving chunks for level 'New World'/Mirror
+[18:09:07] [Server thread/INFO]: Saving chunks for level 'New World'/The Outer Lands
+[18:09:07] [Server thread/INFO]: Saving chunks for level 'New World'/The Last Millenium
+[18:09:07] [Server thread/INFO]: Saving chunks for level 'New World'/Twilight Forest
+[18:09:07] [Server thread/INFO]: Saving chunks for level 'New World'/Mining World
+[18:09:07] [Server thread/INFO]: Saving chunks for level 'New World'/Moon
+[18:09:07] [Server thread/INFO]: Saving chunks for level 'New World'/Mars
+[18:09:18] [Client thread/INFO]: [CHAT] This server doesn't have Hardcore Questing Mode enabled.
+[18:09:18] [Client thread/INFO]: [CHAT] Veinminer set to activate on sneak.
+[18:09:18] [Client thread/INFO]: [CHAT] Veinminer client keybind disabled.
+[18:09:19] [Client thread/INFO]: [CHAT] InvTweaks: Configuration loaded.
+[18:09:19] [Server thread/INFO]: Saving and pausing game...
+[18:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/Asteroids
+[18:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/Underdark
+[18:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/Spirit World
+[18:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/Torment
+[18:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/Mirror
+[18:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/The Outer Lands
+[18:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/The Last Millenium
+[18:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/Twilight Forest
+[18:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/Mining World
+[18:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/Moon
+[18:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/Mars
+[18:09:25] [Client thread/INFO]: [CHAT] §eJourneyMap:§f Press [§bJ§f]
+[18:09:30] [Server thread/INFO]: Saving and pausing game...
+[18:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/Asteroids
+[18:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/Underdark
+[18:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/Spirit World
+[18:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/Torment
+[18:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/Mirror
+[18:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/The Outer Lands
+[18:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/The Last Millenium
+[18:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/Twilight Forest
+[18:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/Mining World
+[18:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/Moon
+[18:09:30] [Server thread/INFO]: Saving chunks for level 'New World'/Mars
+[18:09:33] [Server thread/INFO]: Saving and pausing game...
+[18:09:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:09:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:09:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:09:34] [Server thread/INFO]: Saving chunks for level 'New World'/Asteroids
+[18:09:34] [Server thread/INFO]: Saving chunks for level 'New World'/Underdark
+[18:09:34] [Server thread/INFO]: Saving chunks for level 'New World'/Spirit World
+[18:09:34] [Server thread/INFO]: Saving chunks for level 'New World'/Torment
+[18:09:34] [Server thread/INFO]: Saving chunks for level 'New World'/Mirror
+[18:09:34] [Server thread/INFO]: Saving chunks for level 'New World'/The Outer Lands
+[18:09:34] [Server thread/INFO]: Saving chunks for level 'New World'/The Last Millenium
+[18:09:34] [Server thread/INFO]: Saving chunks for level 'New World'/Twilight Forest
+[18:09:34] [Server thread/INFO]: Saving chunks for level 'New World'/Mining World
+[18:09:34] [Server thread/INFO]: Saving chunks for level 'New World'/Moon
+[18:09:34] [Server thread/INFO]: Saving chunks for level 'New World'/Mars
+[18:09:36] [Client thread/INFO]: [CHAT] §d[Draconic Evolution]§r New version available:
+[18:09:36] [Client thread/INFO]: [CHAT] §aDraconic Evolution v1.0.2
+[18:09:36] [Client thread/INFO]: [CHAT] More bug fixes! Hopefully fixed the chaos guardian issues once and for all...
+[18:10:01] [Client thread/INFO]: [CHAT] Item Panel contents were dumped to dumps/itempanel.nbt
+[18:10:04] [Client thread/INFO]: [CHAT] Item Panel icons were dumped to dumps/itempanel_icons
+[18:10:05] [Client thread/INFO]: [CHAT] Item Panel contents were dumped to dumps/itempanel.csv
+[18:11:30] [Client thread/INFO]: [CHAT] Item Panel contents were dumped to dumps/itempanel.nbt
+[18:12:06] [Server thread/INFO]: Saving and pausing game...
+[18:12:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:12:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:12:06] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:12:06] [Server thread/INFO]: Saving chunks for level 'New World'/Asteroids
+[18:12:06] [Server thread/INFO]: Saving chunks for level 'New World'/Underdark
+[18:12:06] [Server thread/INFO]: Saving chunks for level 'New World'/Spirit World
+[18:12:06] [Server thread/INFO]: Saving chunks for level 'New World'/Torment
+[18:12:06] [Server thread/INFO]: Saving chunks for level 'New World'/Mirror
+[18:12:06] [Server thread/INFO]: Saving chunks for level 'New World'/The Outer Lands
+[18:12:06] [Server thread/INFO]: Saving chunks for level 'New World'/The Last Millenium
+[18:12:06] [Server thread/INFO]: Saving chunks for level 'New World'/Twilight Forest
+[18:12:06] [Server thread/INFO]: Saving chunks for level 'New World'/Mining World
+[18:12:06] [Server thread/INFO]: Saving chunks for level 'New World'/Moon
+[18:12:06] [Server thread/INFO]: Saving chunks for level 'New World'/Mars
+[18:12:53] [Client thread/INFO]: [CHAT] Item Panel icons were dumped to dumps/itempanel_icons
+[18:13:36] [Server thread/INFO]: Saving and pausing game...
+[18:13:36] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:13:36] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:13:36] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:13:36] [Server thread/INFO]: Saving chunks for level 'New World'/Asteroids
+[18:13:36] [Server thread/INFO]: Saving chunks for level 'New World'/Underdark
+[18:13:36] [Server thread/INFO]: Saving chunks for level 'New World'/Spirit World
+[18:13:36] [Server thread/INFO]: Saving chunks for level 'New World'/Torment
+[18:13:36] [Server thread/INFO]: Saving chunks for level 'New World'/Mirror
+[18:13:36] [Server thread/INFO]: Saving chunks for level 'New World'/The Outer Lands
+[18:13:36] [Server thread/INFO]: Saving chunks for level 'New World'/The Last Millenium
+[18:13:36] [Server thread/INFO]: Saving chunks for level 'New World'/Twilight Forest
+[18:13:36] [Server thread/INFO]: Saving chunks for level 'New World'/Mining World
+[18:13:36] [Server thread/INFO]: Saving chunks for level 'New World'/Moon
+[18:13:36] [Server thread/INFO]: Saving chunks for level 'New World'/Mars
+[18:14:45] [Server thread/INFO]: Saving and pausing game...
+[18:14:45] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:14:46] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:14:46] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:14:46] [Server thread/INFO]: Saving chunks for level 'New World'/Asteroids
+[18:14:46] [Server thread/INFO]: Saving chunks for level 'New World'/Underdark
+[18:14:46] [Server thread/INFO]: Saving chunks for level 'New World'/Spirit World
+[18:14:46] [Server thread/INFO]: Saving chunks for level 'New World'/Torment
+[18:14:46] [Server thread/INFO]: Saving chunks for level 'New World'/Mirror
+[18:14:46] [Server thread/INFO]: Saving chunks for level 'New World'/The Outer Lands
+[18:14:46] [Server thread/INFO]: Saving chunks for level 'New World'/The Last Millenium
+[18:14:46] [Server thread/INFO]: Saving chunks for level 'New World'/Twilight Forest
+[18:14:46] [Server thread/INFO]: Saving chunks for level 'New World'/Mining World
+[18:14:46] [Server thread/INFO]: Saving chunks for level 'New World'/Moon
+[18:14:46] [Server thread/INFO]: Saving chunks for level 'New World'/Mars
+[18:15:31] [Client thread/INFO]: [CHAT] Item Panel icons were dumped to dumps/itempanel_icons
+[18:15:37] [Server thread/INFO]: Saving and pausing game...
+[18:15:37] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:15:37] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:15:37] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:15:37] [Server thread/INFO]: Saving chunks for level 'New World'/Asteroids
+[18:15:37] [Server thread/INFO]: Saving chunks for level 'New World'/Underdark
+[18:15:37] [Server thread/INFO]: Saving chunks for level 'New World'/Spirit World
+[18:15:37] [Server thread/INFO]: Saving chunks for level 'New World'/Torment
+[18:15:37] [Server thread/INFO]: Saving chunks for level 'New World'/Mirror
+[18:15:37] [Server thread/INFO]: Saving chunks for level 'New World'/The Outer Lands
+[18:15:37] [Server thread/INFO]: Saving chunks for level 'New World'/The Last Millenium
+[18:15:37] [Server thread/INFO]: Saving chunks for level 'New World'/Twilight Forest
+[18:15:37] [Server thread/INFO]: Saving chunks for level 'New World'/Mining World
+[18:15:37] [Server thread/INFO]: Saving chunks for level 'New World'/Moon
+[18:15:37] [Server thread/INFO]: Saving chunks for level 'New World'/Mars
+[18:15:44] [Client thread/INFO]: [CHAT] Item Panel contents were dumped to dumps/itempanel.csv
+[18:15:46] [Client thread/INFO]: [CHAT] Item Panel contents were dumped to dumps/itempanel.nbt
+[18:18:20] [Server thread/INFO]: Saving and pausing game...
+[18:18:20] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:18:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:18:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:18:20] [Server thread/INFO]: Saving chunks for level 'New World'/Asteroids
+[18:18:20] [Server thread/INFO]: Saving chunks for level 'New World'/Underdark
+[18:18:20] [Server thread/INFO]: Saving chunks for level 'New World'/Spirit World
+[18:18:20] [Server thread/INFO]: Saving chunks for level 'New World'/Torment
+[18:18:20] [Server thread/INFO]: Saving chunks for level 'New World'/Mirror
+[18:18:20] [Server thread/INFO]: Saving chunks for level 'New World'/The Outer Lands
+[18:18:20] [Server thread/INFO]: Saving chunks for level 'New World'/The Last Millenium
+[18:18:20] [Server thread/INFO]: Saving chunks for level 'New World'/Twilight Forest
+[18:18:20] [Server thread/INFO]: Saving chunks for level 'New World'/Mining World
+[18:18:20] [Server thread/INFO]: Saving chunks for level 'New World'/Moon
+[18:18:20] [Server thread/INFO]: Saving chunks for level 'New World'/Mars
+[18:18:21] [Server thread/INFO]: Stopping server
+[18:18:21] [Server thread/INFO]: Saving players
+[18:18:21] [Server thread/INFO]: Saving worlds
+[18:18:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:18:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:18:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:18:21] [Server thread/INFO]: Saving chunks for level 'New World'/Asteroids
+[18:18:21] [Server thread/INFO]: Saving chunks for level 'New World'/Underdark
+[18:18:21] [Server thread/INFO]: Saving chunks for level 'New World'/Spirit World
+[18:18:21] [Server thread/INFO]: Saving chunks for level 'New World'/Torment
+[18:18:21] [Server thread/INFO]: Saving chunks for level 'New World'/Mirror
+[18:18:21] [Server thread/INFO]: Saving chunks for level 'New World'/The Outer Lands
+[18:18:21] [Server thread/INFO]: Saving chunks for level 'New World'/The Last Millenium
+[18:18:21] [Server thread/INFO]: Saving chunks for level 'New World'/Twilight Forest
+[18:18:21] [Server thread/INFO]: Saving chunks for level 'New World'/Mining World
+[18:18:21] [Server thread/INFO]: Saving chunks for level 'New World'/Moon
+[18:18:21] [Server thread/INFO]: Saving chunks for level 'New World'/Mars
+[18:18:26] [Client thread/INFO]: Stopping!
