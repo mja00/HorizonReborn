@@ -1,0 +1,810 @@
+{
+  "name": "The New Power Creep",
+  "description": "Draconic Evolution",
+  "quests": [
+    {
+      "name": "What\u0027s This? What\u0027s This!",
+      "description": "Draconic Evolution adds an Information Tablet that gives descriptions of most blocks and items in the mod.",
+      "x": 19,
+      "y": 10,
+      "bigIcon": true,
+      "icon": {
+        "id": "DraconicEvolution:infoTablet"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:infoTablet"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Here Ther\u0027 Be Dragons",
+      "description": "Draconium is the main material in Draconic Evolution. The ore is very rare in the Overworld, but pretty common in the End. This mod is very end-game, so I would reccomend using the End to mine.",
+      "x": 158,
+      "y": 15,
+      "icon": {
+        "id": "DraconicEvolution:draconiumOre"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconiumDust"
+              },
+              "required": 15
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconiumIngot"
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "DraconicEvolution:draconiumOre",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Wyvern Pick",
+      "description": "The Pickaxe of the Wyvern runs off of RF and never break. They are very fast, and have an optional Area of Effect mode.",
+      "x": 199,
+      "y": 40,
+      "icon": {
+        "id": "DraconicEvolution:wyvernPickaxe",
+        "nbt": "{Energy:0}"
+      },
+      "requirements": [
+        1
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernPickaxe",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wyvern Shovel",
+      "description": "The Shovel of the Wyvern runs off of RF and never breaks. It is very fast and has an optional Area of Effect.",
+      "x": 211,
+      "y": 21,
+      "icon": {
+        "id": "DraconicEvolution:wyvernShovel",
+        "nbt": "{Energy:0}"
+      },
+      "requirements": [
+        1
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernShovel",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wyvern Blade",
+      "description": "The Sword of the Wyvern runs off of RF and never breaks. It does 20 attack damage, or 10 hearts. It also hits any nearby mobs to the mob you were aiming at.",
+      "x": 221,
+      "y": 41,
+      "icon": {
+        "id": "DraconicEvolution:wyvernSword",
+        "nbt": "{Energy:0}"
+      },
+      "requirements": [
+        1
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernSword",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wyvern Bow",
+      "description": "The Bow of the Wyvern never breaks, but does not use RF. It has two modes, Sharpshooter (takes longer to shoot but has little to no dropoff), and Rapid Fire (much shorter draw time but not much range)",
+      "x": 210,
+      "y": 60,
+      "icon": {
+        "id": "DraconicEvolution:wyvernBow",
+        "nbt": "{mode:\"sharpshooter\"}"
+      },
+      "requirements": [
+        1
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernBow",
+                "nbt": "{mode:\"rapidfire\"}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leadstone Flux Capacitor",
+      "description": "The Wyvern Flux Capacitor acts like Flux Capacitors from Thermal Expansion. It stores RF, but you can shift-right click it to make it charge items in your hotbar, worn items and hotbar, or worn items and held items. It can hold up to 80,000,000 RF.",
+      "x": 84,
+      "y": 16,
+      "icon": {
+        "id": "DraconicEvolution:draconiumFluxCapacitor",
+        "nbt": "{Energy:0}"
+      },
+      "requirements": [
+        1
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconiumFluxCapacitor",
+                "nbt": "{Energy:0,Mode:0s}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wyvern Armor",
+      "description": "Wyvern Armor is much better than Diamond Armor, and runs off of RF. A full set gives you fire immunity. The Leggings give you a speed boost, and the Boots give you a jump boost and reduced fall damage.",
+      "x": 187,
+      "y": 59,
+      "icon": {
+        "id": "DraconicEvolution:wyvernHelm",
+        "nbt": "{Energy:0}"
+      },
+      "requirements": [
+        1
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernHelm",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernChest",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernLeggs",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernBoots",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spawn Eggs",
+      "description": "Mobs killed by a Sword of the Wyvern have a small chance of dropping a soul of that mob.",
+      "x": 245,
+      "y": 40,
+      "icon": {
+        "id": "DraconicEvolution:mobSoul"
+      },
+      "requirements": [
+        4
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:mobSoul"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon Heart",
+      "description": "The Ender Dragon, and it\u0027s Draconic varient, drops the Dragon Heart when killed. This is the most important part of making Awakened Draconium, the highest tier of armor and tools in Draconic Evolution.",
+      "x": 158,
+      "y": 105,
+      "icon": {
+        "id": "DraconicEvolution:dragonHeart"
+      },
+      "requirements": [
+        10
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Throw this onto the ground and explode it. It should start spinning and glowing, and particles will start flying towards it.",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:dragonHeart"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "Throw down 16 Draconic Cores. If it works, they should be pulled towards the floating heart.",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicCore"
+              },
+              "required": 16
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "Place down 4 Charged Draconium Blocks",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconium",
+                "damage": 2
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "The Charged Draconium Blocks should have turned into Awakened Draconium, the highest tier in Draconic Evolution",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicBlock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Power Creep Defined",
+      "description": "Place a Block of Draconium into any mods charger and wait for it to fill with 100,000,000 RF and it will become a Charged Draconium Block.",
+      "x": 158,
+      "y": 71,
+      "icon": {
+        "id": "DraconicEvolution:draconium",
+        "damage": 2
+      },
+      "requirements": [
+        1
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconium",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon Shovel",
+      "description": "An upgraded version of the Shovel of the Wyvern",
+      "x": 215,
+      "y": 107,
+      "icon": {
+        "id": "DraconicEvolution:draconicShovel",
+        "nbt": "{Energy:0}"
+      },
+      "requirements": [
+        9
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicShovel",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon Pick",
+      "description": "Upgraded version of the Pickaxe of the Wyvern",
+      "x": 202,
+      "y": 126,
+      "icon": {
+        "id": "DraconicEvolution:draconicPickaxe",
+        "nbt": "{Energy:0}"
+      },
+      "requirements": [
+        9
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicPickaxe",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon Blade",
+      "description": "Upgraded version of Sword of the Wyvern, does 40 damage, or 20 hearts.",
+      "x": 225,
+      "y": 126,
+      "icon": {
+        "id": "DraconicEvolution:draconicSword",
+        "nbt": "{Energy:0}"
+      },
+      "requirements": [
+        9,
+        14
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicSword",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon Bow",
+      "description": "Upgraded version of the Bow of the Wyvern, with an added Explosives type that uses gunpowder to explode the target.",
+      "x": 214,
+      "y": 144,
+      "icon": {
+        "id": "DraconicEvolution:draconicBow"
+      },
+      "requirements": [
+        9
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicBow",
+                "nbt": "{mode:\"rapidfire\"}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon Armor",
+      "description": "The Draconic Helm gives the wearer Night Vision, gets rid of negative effects, stops suffocation damage, and let\u0027s you mine while flying or swimming. The Draconic Chestplate gives you Flight and Fire Immunity. The Draconic Leggings give you a speed boost. The Draconic Boots give you fall protection, jump boost, and the ability to walk up whole blocks like stairs.",
+      "x": 192,
+      "y": 146,
+      "icon": {
+        "id": "DraconicEvolution:draconicHelm",
+        "nbt": "{Energy:0}"
+      },
+      "requirements": [
+        9
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicHelm",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicChest",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicLeggs",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicBoots",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon Axe",
+      "description": "The Draconic Axe runs off of RF and breaks the entire tree in one hit, including the leaves.",
+      "x": 238,
+      "y": 107,
+      "icon": {
+        "id": "DraconicEvolution:draconicAxe",
+        "nbt": "{Energy:0}"
+      },
+      "requirements": [
+        9
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicAxe",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon Paxel, but Not",
+      "description": "The Draconic Staff of Power is a mixture of the Draconic Sword, Pickaxe, and Shovel. It does 60 damage, or 30 hearts.",
+      "x": 263,
+      "y": 148,
+      "icon": {
+        "id": "DraconicEvolution:draconicDistructionStaff",
+        "nbt": "{Energy:0}"
+      },
+      "requirements": [
+        11,
+        12,
+        13
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicDistructionStaff",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Itty Bitty Living Space",
+      "description": "The Draconic Flux Capacitor is an upgraded version of the Wyvern Flux Capacitor, and holds up to 250,000,000 RF.",
+      "x": 83,
+      "y": 104,
+      "icon": {
+        "id": "DraconicEvolution:draconiumFluxCapacitor",
+        "damage": 1,
+        "nbt": "{Energy:0}"
+      },
+      "requirements": [
+        6,
+        9
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconiumFluxCapacitor",
+                "damage": 1,
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "I am Thor!",
+      "description": "Place down the Weather Controller, give it some Emeralds, and choose rain, no rain, or thunder, and give it a redstone signal.",
+      "x": 119,
+      "y": 33,
+      "icon": {
+        "id": "DraconicEvolution:weatherController"
+      },
+      "requirements": [
+        1
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:weatherController"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:emerald",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Witha Killa",
+      "description": "The Mob Grinder uses coal or RF to kill any mobs in front of it, including Withers. It does not pick up the XP or items though, so you need to collect those seperately.",
+      "x": 130,
+      "y": 52,
+      "icon": {
+        "id": "DraconicEvolution:grinder",
+        "damage": 3
+      },
+      "requirements": [
+        1
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:grinder",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Charge!",
+      "description": "The Energy Infusor is Draconic Evolution\u0027s way to charge items with RF. Place it down, pipe in some power, and stick an item that can store RF into it.",
+      "x": 108,
+      "y": 53,
+      "icon": {
+        "id": "DraconicEvolution:energyInfuser"
+      },
+      "requirements": [
+        1
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:energyInfuser"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Helios One",
+      "description": "Place down the Sun Dial, and give it a redstone signal. Once the time is what you want, let go of the signal.",
+      "x": 120,
+      "y": 72,
+      "icon": {
+        "id": "DraconicEvolution:sunDial"
+      },
+      "requirements": [
+        1
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:sunDial"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iron Chests+",
+      "description": "The Draconic Chest can hold 234 items total, and a built in crafting table and furnace with 6 slots. When broken, it keeps it\u0027s contents. Requires RF to run",
+      "x": 98,
+      "y": 73,
+      "icon": {
+        "id": "DraconicEvolution:draconiumChest"
+      },
+      "requirements": [
+        1
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconiumChest"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chaos",
+      "description": "Ender Dragon not hard enough for you? Travel to any multiple of 10,000 on the x or z coordinate in the End to fight a super hard version of the Dragon. These Chaos Dragons drop 2 Dragon Hearts.",
+      "x": 290,
+      "y": 9,
+      "bigIcon": true,
+      "icon": {
+        "id": "minecraft:dragon_egg"
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Chaos Dragon",
+              "icon": {
+                "id": "minecraft:dragon_egg"
+              },
+              "mob": "DraconicEvolution.EnderDragon",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Power Creep",
+      "description": "The Power Core in Draconic Evolution is currently the single largest RF storage, with the top tier being able to store 2,140,000,000 RF (2.14 trillion). See www.tolkiencraft.com/draconic-evolution/energy-core-multi-block/ for a step-by-step guide to the multiblock.",
+      "x": 31,
+      "y": 155,
+      "bigIcon": true,
+      "icon": {
+        "id": "DraconicEvolution:energyStorageCore"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "The largest tier of Energy Core requires 328 Redstone Blocks, 218 Draconium Blocks, 1 Energy Core, and 4 Particle Generators.",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:energyStorageCore"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:redstone_block"
+              },
+              "required": 328
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconium"
+              },
+              "required": 218,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:particleGenerator"
+              },
+              "required": 4,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

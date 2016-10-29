@@ -1,0 +1,500 @@
+{
+  "name": "CLANK CLANK CRASH CLANK",
+  "description": "Mekanism",
+  "quests": [
+    {
+      "name": "Osmium Ore",
+      "description": "Osmium is the densest naturally occuring element, with a density of 22.59 g/cm3. It is the most used metal in Mekanism, and can be found anywhere between the surface and Bedrock. ",
+      "x": 155,
+      "y": 54,
+      "bigIcon": true,
+      "icon": {
+        "id": "Mekanism:OreBlock"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:OreBlock"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:Ingot",
+          "damage": 1,
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "name": "My First Machine",
+      "description": "...if you started with this questline, which most people won\u0027t. The Metallurgic Infuser is a critical piece of machinery used in Mekanism. Its main purpose is to infuse normal materials to create enriched materials.The Metallurgic Infuser takes in an infusion material into an internal \"buffer\" which it then uses to infuse an item placed in the input slot.",
+      "x": 159,
+      "y": 10,
+      "icon": {
+        "id": "MekanismGenerators:Generator"
+      },
+      "requirements": [
+        0
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A New Age Dawns",
+      "description": "An age of STEEL! A Steel Ingot is created by smeling Steel Dust in any type of furnance. Steel Dust is the result of infusing Enriched Iron with 10 units of Carbon.",
+      "x": 128,
+      "y": 123,
+      "icon": {
+        "id": "Mekanism:Ingot",
+        "damage": 4
+      },
+      "requirements": [
+        4
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:Ingot",
+                "damage": 4
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "Mekanism:EnrichedAlloy"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Power Storage and Transport",
+      "description": "The Basic Universal Cable is the first tier of Universal Cables in Mekanism. The Basic Universal Cable is capable of transferring the equivalent of 200 RF/t. The Basic Energy Cube is a energy storage device from Mekanism. Like all energy cubes it can take in power from five sides and output power from the one side marked with a panel.",
+      "x": 209,
+      "y": 58,
+      "icon": {
+        "id": "Mekanism:EnergyCube",
+        "damage": 1,
+        "nbt": "{tier:\"Basic\",electricity:2000000.0d}"
+      },
+      "requirements": [
+        1
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "Mekanism:EnergyCube",
+                "damage": 100,
+                "nbt": "{tier:\"Basic\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:EnergyCube",
+          "damage": 1,
+          "nbt": "{tier:\"Basic\",electricity:2000000.0d}"
+        }
+      ]
+    },
+    {
+      "name": "Ol\u0027 Clankers",
+      "description": "The Crusher crushes, among other things, clumps into Dirty Dusts, Ingots into dusts and Biomatter into Bio Fuel. The Energized Smelter is a machine added by Mekanism that is capable of smelting various items when powered. This machine uses energy to extract dusts out of certain blocks and ores, making it essential to producing different kinds of tools. Not to be mistaken with the Crusher, this machine is the pulverizer equivalent in other mods.",
+      "x": 158,
+      "y": 100,
+      "icon": {
+        "id": "Mekanism:MachineBlock"
+      },
+      "requirements": [
+        3,
+        12
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 10
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Green Power Producers",
+      "description": "A Wind Turbine\u0027s giant blades harness the force of the wind to generate power. Each Wind Turbine requires a fairly large 1x1x5 area. The machine will generate power day and night, in sun or rain, but the turbine must have a clear view of the sky (over the rotor housing at the top of the tower). The power output increases linearly with its elevation. Connect Universal Cable or other compatible cable to the \"front\" of the base of the Turbine, the side underneath the blades (indicated by a green square). Right-click with a wrench to rotate the entire machine. The Solar Generator harnesses sunlight to create power.",
+      "x": 74,
+      "y": 106,
+      "icon": {
+        "id": "MekanismGenerators:Generator",
+        "damage": 6
+      },
+      "requirements": [
+        12
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "MekanismGenerators:Generator",
+                "damage": 6
+              }
+            },
+            {
+              "item": {
+                "id": "MekanismGenerators:Generator",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "To the Moon",
+      "description": "The Electrolytic Separator sends controlled amounts of direct current into a fluid, causing the atoms in the fluid to break their bonds. This process of electrolysis is used to create some very useful gases from some rather ordinary fluids.The Electrolytic Separator requires a constant supply of power and must have a source of a suitable liquid in order to produce the gases. As the liquid is electrolyzed, the component gases will be stored in its internal tanks. Should either tank fill completely, the Separator will turn off. Connecting a Pressurized Tube or other compatible pipe to both tanks will remove the gas. If you are only using a single gas, selecting \"dump\" for the unused gas will vent it to the environment, preventing that internal tank from filling completely and stopping the Separator. The Jetpack is an item that allows the player to fly, equippable in the chestplate slot. It uses Hydrogen gas as a fuel, of which it can store up to 24,000 mB. The Jetpack can be filled up wherever Hydrogen gas is outputted into a slot. Here are a few examples:It can be placed in the Electrolytic Separator\u0027s left output slot (where Hydrogen is outputted) after placing water in the machine\u0027s input slot (which will result in the machine creating Hydrogen). It can be placed in a Gas Tank\u0027s (that has been placed on the ground) output slot.",
+      "x": 235,
+      "y": 106,
+      "icon": {
+        "id": "Mekanism:Jetpack",
+        "damage": 100
+      },
+      "requirements": [
+        3
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock2",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:Jetpack",
+                "damage": 100
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Faster Bigger Better Stronger",
+      "description": "A Mekanism machine upgrade to make them process items faster each Mekanism machine can store 8 of these upgrades. An Energy Upgrade is used by Mekanism machines to decrease their power usage and increase their maximum energy storage. Up to eight upgrades can be placed in a machine at once.",
+      "x": 123,
+      "y": 98,
+      "icon": {
+        "id": "Mekanism:EnergyUpgrade"
+      },
+      "requirements": [
+        4
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:SpeedUpgrade"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "Mekanism:EnergyUpgrade"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:SpeedUpgrade",
+          "amount": 8
+        },
+        {
+          "id": "Mekanism:EnergyUpgrade",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "More Machines",
+      "description": "The Osmium Compressor is used to create Refined Obsidian Ingots from Refined Obsidian Dust and Glowstone Ingots from Glowstone Dust. It fuses liquid Osmium (melted down Osmium Ingots placed in the machine\u0027s bottom slot) with the originating materials to create their corresponding ingots. The Purification Chamber uses oxygen to refine Ores and shards into clumps. Each ore makes 3 clumps, whereas each shard only gives one clump. The Combiner allows the player to create an ore block from 8 dust. Place the ore dust in the top slot, and some cobblestone in the bottom slot, and it will combine to make the ore block.",
+      "x": 157,
+      "y": 135,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 9
+      },
+      "requirements": [
+        4
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 9
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TELEPORTATION!",
+      "description": "The Teleporter from Mekanism is used in the construction of the multi-block teleporter. It is capable of teleporting a player to another Teleporter in any dimension instantaneously. The Teleporter block will store up to 2,000,000 RF in its internal storage. If the Teleporter is right-clicked it is dismantled and keeps its stored energy. It can accept power from any side. In order to construct a complete multi-block Teleporter, one Teleporter block and nine Teleporter Frames are required. The Teleporter block must be the bottom centre block and a four tall and three wide ring of Teleporter FramesIn order to construct a complete multi-block Teleporter, one Teleporter block and nine Teleporter Frames are required. The Teleporter block must be the bottom centre block and a four tall and three wide ring of Teleporter Frames.",
+      "x": 193,
+      "y": 100,
+      "icon": {
+        "id": "Mekanism:BasicBlock",
+        "damage": 7
+      },
+      "requirements": [
+        4
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 11
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Mekanism:BasicBlock",
+                "damage": 7
+              },
+              "required": 18,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Mekanism:PortableTeleporter",
+                "damage": 100
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "I, Robit",
+      "description": "Robit is Mekanism\u0027s mechanical companion. He can act as a crafting grid, a furnace, an anvil, a chest, or simply a cute little buddy. To bring your personal robotic friend into the world, you\u0027ll have to craft him (or her) using the recipie above. Once Robit is in your inventory, right click a Chargepad with him in hand. This will spawn Robit and assign him to the pad. Oh, and make sure the Chargepad is supplied with power. Otherwise, he won\u0027t be able to follow you around!",
+      "x": 185,
+      "y": 123,
+      "icon": {
+        "id": "Mekanism:Robit",
+        "damage": 100
+      },
+      "requirements": [
+        4
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:Robit",
+                "damage": 100
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Digital Style!",
+      "description": "The Digital Miner is the large scale mining machine for Mekanism. However, this machine is like no other as it \"magically-teleports\" mined blocks to its inventory, within a radius of 2x2x3. To start, the Digital Miner needs a source of power. Once powered, you have to click on Config to set the materials you want him to mine.Press OreDict to enter codes of the materials and press save. If it worked you\u0027ll see the icon of the ore in the slot in the list, if it didn\u0027t worked, you\u0027ll see a blank slot.Example codes :To mine Gold Ore: oreGoldTo mine Redstone (redstone ore in Silk Touch mode): oreRedstoneTo mine everything that is made out of wood: Wood*To mine every ore: ore*To mine whatever is made out of Emerald (Emerald block, Emerald ore): *EmeraldIt should also be noted that if the ore\u0027s name is too long just add * as the last character e.g. oreCertus* (\"Certus Quartz\" from the mod AE2).Some materials, such as Obsidian, do not exist in the Digital Miner Dictionary. You will have to press ItemStack beside OreDict. Place one Obsidian block into the slot then click save.Enter the radius you want him to mine in and press the little hook to save it. (Maximum radius is 32)The Digital Miner has 2 IO-Slots. The one on the back, where the items can be picked up (i.e. by Logistical Transporter) and one on the top front to insert items (i.e. from a bin).",
+      "x": 195,
+      "y": 142,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 4
+      },
+      "requirements": [
+        10
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Power Generation",
+      "description": "Like most tech mods, Mekanism machines require energy to use. There are many ways to generate power, but some are faster than others.",
+      "x": 105,
+      "y": 58,
+      "icon": {
+        "id": "MekanismGenerators:Generator",
+        "damage": 4
+      },
+      "requirements": [
+        1
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "A Heat Generator converts heat energy into power. This is often the first generator to craft because, although it provides only a small amount of power, it is the only mekanism generator that does not require steel. The Heat Generator can generate power in both an active and a passive mode simultaneously. Since the Heat Generator outputs so little power and it is fairly inexpensive to create, it is common to have two or three generators constantly trickling power into one or more Energy Cubes.",
+          "items": [
+            {
+              "item": {
+                "id": "MekanismGenerators:Generator"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "longDescription": "A Gas-Burning Generator creates power by consuming any burnable gas for example the Hydrogen produced by an Electrolytic Separator or Ethylene. Each unit of Hydrogen gas is converted to 150 joules of power (J/t). The Gas-Burning Generator has its own internal storage tank with a capacity of 18,000 units. Gas Tanks can be used to expand the Hydrogen storage capacity of your system. Gas-Burning Generators are an upper tier Mekanism power source that should supply adequate power to your base for a long time, but they are best used when they provide power to charge a bank of Energy Cubes, rather than sending the generator power out directly to your base.",
+          "items": [
+            {
+              "item": {
+                "id": "MekanismGenerators:Generator",
+                "damage": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "longDescription": "Bio-Generators produce electricity from Bio Fuel. The generator will produce 5.6 kJ from a single item, and has an internal storage capacity of 160 kJ. After this has been reached, the bio-generator can hold 24000 units of bio fuel to be processed later, which is equivalent to 240 items. Bio Fuel is very easy to obtain, so it is a good use for an early supply of energy. Any form of plant life can be turned into a bio fuel. Simple life such as seeds will produce 1 bio fuel, whereas more complex life such as saplings, reeds, wheat, or potatoes will produce 2 bio fuel. To actually create it simply take your plant life and stick it into a powered Crusher. The crusher will not accept Watermelon and pumpkin as plant matter, to use these convert them to seeds and then crush it.",
+          "items": [
+            {
+              "item": {
+                "id": "MekanismGenerators:Generator",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Mekanism:BioFuel"
+              },
+              "required": 4,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Atomic Wrangler",
+      "description": "The Atomic Disassembler is an all-in-1 mining tool added by Mekanism. Think of it the upgraded electronic version of the paxel.Its mining speed can be set to a supercharged state to make mining extremely, to such a degree where the tool should be used with caution when wielding it.",
+      "x": 253,
+      "y": 138,
+      "icon": {
+        "id": "Mekanism:AtomicDisassembler",
+        "damage": 100
+      },
+      "requirements": [
+        6
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:AtomicDisassembler",
+                "damage": 100
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
