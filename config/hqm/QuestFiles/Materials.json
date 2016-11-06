@@ -1,0 +1,1126 @@
+{
+      "name": "Materials",
+      "description": "I wonder what types of ores are present in this universe?",
+      "quests": [
+        {
+          "id": "quest025",
+          "name": "Emeralds",
+          "description": "I need to mine up some emeralds for my future projects... For some reason, it seems like emerald ores are more prominent in extreme hills biomes.",
+          "uuid": "6b160bd2-dd30-468f-8917-68bb86791e6a",
+          "x": 19,
+          "y": 12,
+          "icon": "minecraft:emerald size(1) dmg(0)",
+          "requirements": [
+            "quest017"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "ANTI_TRIGGER",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "minecraft:emerald size(1) dmg(0)",
+                  "required": 2,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(1)"
+          ]
+        },
+        {
+          "id": "quest026",
+          "name": "Copper",
+          "description": "Eh. Copper. I am able to use copper to craft upgraded chests, furnaces and other items. But in general, copper isn't very useful. But if used in an alloy... It becomes more usable.",
+          "uuid": "4a78efc4-65bb-421c-bda0-4e156d4982fd",
+          "x": 17,
+          "y": 196,
+          "icon": "ThermalFoundation:Storage size(1) dmg(0)",
+          "requirements": [
+            "quest025"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "ThermalFoundation:Storage size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest029",
+          "name": "Tin",
+          "description": "Tin. While slightly more useful than copper, and can be used in the making of power generation engines, power storage devices and genetics-related items, is still not entirely useful. It should be combined with copper to form an alloy, which is bronze.",
+          "uuid": "53882fbd-2012-437d-95eb-ce50efbeca2a",
+          "x": 45,
+          "y": 196,
+          "icon": "ThermalFoundation:Storage size(1) dmg(1)",
+          "requirements": [
+            "quest026"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "ThermalFoundation:Storage size(1) dmg(1)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest030",
+          "name": "Aluminium",
+          "description": "Aluminium is a material that is commonly used in items related to the exploration of outer space. But other than that, it does not have much uses.",
+          "uuid": "a13c70f6-269e-4aff-bbdd-c750fd02cdb7",
+          "x": 77,
+          "y": 196,
+          "icon": "TConstruct:MetalBlock size(1) dmg(6)",
+          "requirements": [
+            "quest029"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "TConstruct:MetalBlock size(1) dmg(6)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest033",
+          "name": "Bronze",
+          "description": "Bronze, a highly useful material, is an alloy created using copper and tin. It is most often used in genetics, and has a beautiful rustic charm when used as a decorative block.",
+          "uuid": "11190b51-23a9-4ef5-a413-8a292f5115e5",
+          "x": 45,
+          "y": 163,
+          "icon": "ThermalFoundation:Storage size(1) dmg(9)",
+          "requirements": [
+            "quest029"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "ThermalFoundation:Storage size(1) dmg(9)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest034",
+          "name": "Aluminium Brass",
+          "description": "Aluminium brass is an alloy created using aluminium and copper. It can be used to make casts, and even drawbridges! Time to make a secret missile silo!",
+          "uuid": "2559e12e-b82a-4e4a-a6dd-c58b030fe040",
+          "x": 77,
+          "y": 163,
+          "icon": "TConstruct:MetalBlock size(1) dmg(7)",
+          "requirements": [
+            "quest030"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "TConstruct:MetalBlock size(1) dmg(7)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest036",
+          "name": "Alumite",
+          "description": "Alumite is an alloy created using aluminium, iron and obsidian. It can be used to craft fairly strong tools and weapons.",
+          "uuid": "7a699088-3649-4f17-a4dd-caf447d902af",
+          "x": 99,
+          "y": 163,
+          "icon": "TConstruct:MetalBlock size(1) dmg(8)",
+          "requirements": [
+            "quest030"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "TConstruct:MetalBlock size(1) dmg(8)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest037",
+          "name": "Cobalt",
+          "description": "Cobalt ore can only be found in the nether. It can be used to craft strong tools. However, if used in an alloy, it will become a very strong material for making tools and weapons.",
+          "uuid": "1d2fda80-b425-4ea1-b89e-a85dc64c6cda",
+          "x": 109,
+          "y": 196,
+          "icon": "TConstruct:MetalBlock size(1) dmg(0)",
+          "requirements": [
+            "quest030"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "TConstruct:MetalBlock size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest038",
+          "name": "Ardite",
+          "description": "Ardite ore can only be found in the nether. It can be used to craft strong tools. However, if used in an alloy, it will become a very strong material for making tools and weapons.",
+          "uuid": "3795c2cc-16a7-4502-9eb4-d9a0f1bd41dd",
+          "x": 142,
+          "y": 196,
+          "icon": "TConstruct:MetalBlock size(1) dmg(1)",
+          "requirements": [
+            "quest037"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "TConstruct:MetalBlock size(1) dmg(1)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest039",
+          "name": "Manyullyn",
+          "description": "Manyullyn is an alloy created using cobalt and ardite. It can be used to craft very strong end-game tools and weapons.",
+          "uuid": "42331546-dd25-47cf-981b-40b38ef52dff",
+          "x": 142,
+          "y": 162,
+          "icon": "TConstruct:MetalBlock size(1) dmg(2)",
+          "requirements": [
+            "quest038"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "TConstruct:MetalBlock size(1) dmg(2)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest040",
+          "name": "Silver",
+          "description": "Silver is a precious metal that is found underground. It is mostly used in the making of augments, and many different kinds of alloys.",
+          "uuid": "5fa86166-f795-4f37-8f5d-9f6aacef5041",
+          "x": 303,
+          "y": 197,
+          "icon": "ThermalFoundation:Storage size(1) dmg(2)",
+          "requirements": [
+            "quest025"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "ThermalFoundation:Storage size(1) dmg(2)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest041",
+          "name": "Lead",
+          "description": "Lead is a common material that is used in the making of low-grade mechanical items, such as leadstone thrusters, leadstone motors, leadstone flux capacitors, leadstone fluxducts, and many other items. However, it is also used in certain higher-grade mechanical items, such as redstone energy cells and resonant energy cells.",
+          "uuid": "860d36a3-8376-4a3f-948c-9ded5ad3a205",
+          "x": 275,
+          "y": 197,
+          "icon": "ThermalFoundation:Storage size(1) dmg(3)",
+          "requirements": [
+            "quest040"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "ThermalFoundation:Storage size(1) dmg(3)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest042",
+          "name": "Lumium",
+          "description": "Lumium is an alloy created using tin, silver and glowstone. It is mainly used in the making of components, such as glowstone elevation units, hardened lumium glass.",
+          "uuid": "5ae5a6f5-13e2-4651-be16-ad8e8a2a522a",
+          "x": 303,
+          "y": 170,
+          "icon": "ThermalFoundation:Storage size(1) dmg(11)",
+          "requirements": [
+            "quest040"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "ThermalFoundation:Storage size(1) dmg(11)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest044",
+          "name": "Platinum",
+          "description": "Platinium, also known as shiny, is mainly used in the making of enderium base, enderium blend, and some enderium-related items, such as resonant flux windmills.",
+          "uuid": "f702cd11-e0da-4f66-be83-b99da5380ae8",
+          "x": 211,
+          "y": 197,
+          "icon": "ThermalFoundation:Storage size(1) dmg(5)",
+          "requirements": [
+            "quest045"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "ThermalFoundation:Storage size(1) dmg(5)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest045",
+          "name": "Ferrous",
+          "description": "Ferrous, also known as nickel, is mainly used to make ferrous gears, which is used to make numerous machines, as well as an alloy known as invar.",
+          "uuid": "2e0cd7d6-a422-411d-9455-a42c43e95363",
+          "x": 243,
+          "y": 197,
+          "icon": "ThermalFoundation:Storage size(1) dmg(4)",
+          "requirements": [
+            "quest041"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "ThermalFoundation:Storage size(1) dmg(4)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest047",
+          "name": "Invar",
+          "description": "Invar is an alloy created using iron and ferrous. It is mainly used in the making of hardened machines, and average-grade mechanical items, such as hardened energy cells, hardened flux capacitors, hardened portable tanks, and many other items.",
+          "uuid": "aca5abf7-a871-46da-8b9c-2f95cb005fe1",
+          "x": 243,
+          "y": 168,
+          "icon": "ThermalFoundation:Storage size(1) dmg(8)",
+          "requirements": [
+            "quest045"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "ThermalFoundation:Storage size(1) dmg(8)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest048",
+          "name": "Signalum",
+          "description": "Signalum is an alloy created using copper, silver and redstone. It is mainly used to make signalum security locks, lumium lamps, as well as signalum-related internal redstone controllers.",
+          "uuid": "999d3ace-e55a-4678-a870-b7eb1a4a4cd3",
+          "x": 283,
+          "y": 170,
+          "icon": "ThermalFoundation:Storage size(1) dmg(10)",
+          "requirements": [
+            "quest040"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "ThermalFoundation:Storage size(1) dmg(10)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest049",
+          "name": "Electrum",
+          "description": "Electrum is an alloy created using silver and gold. It is mainly used in the making of mechanical items, such as dynamos, capacitors and energy cells.",
+          "uuid": "3da99e30-d599-402e-8184-7009db48b8c9",
+          "x": 177,
+          "y": 163,
+          "icon": "ThermalFoundation:Storage size(1) dmg(7)",
+          "requirements": [
+            "quest025"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "ThermalFoundation:Storage size(1) dmg(7)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest050",
+          "name": "Enderium",
+          "description": "Enderium is an alloy which can be made using two methods. The first method requires smelting down enderium blend with pyrotheum dust. Enderium blend is created using tin, silver, platinum and resonant ender. The second method requires smelting down enderium base with pyrotheum dust and ender pearls. Enderium base is created using silver, platinum and tin. Enderium is mostly used in advanced machines, and mechanical items, such as resonant energy cells, resonant flux capacitors, resonant portable tanks, resonant strongboxes, resonant thrusters and tesseracts.",
+          "uuid": "10a261a6-b9c8-4e81-b5f5-f4bf00ada025",
+          "x": 211,
+          "y": 168,
+          "icon": "ThermalFoundation:Storage size(1) dmg(12)",
+          "requirements": [
+            "quest044"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "ThermalFoundation:Storage size(1) dmg(12)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest053",
+          "name": "Graphite",
+          "description": "In order to get some graphite, which is used in building a reactor, I need to smelt some coal/charcoal! (Yes... To re-arrange the carbon molecules...)",
+          "uuid": "d1426e99-8ede-4dfc-ab89-1fad88ffecd1",
+          "x": 52,
+          "y": 12,
+          "icon": "BigReactors:BRMetalBlock size(1) dmg(2)",
+          "requirements": [
+            "quest025"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "BigReactors:BRMetalBlock size(1) dmg(2)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest054",
+          "name": "Yellorium",
+          "description": "I need to go mining for this strange uranium-like material that is yellow in color! Due to its uranium-like properties, I will be able to make a nuclear reactor with this! This will be a perfect candidate for a material suitable for building a nuclear reactor. Power generation, here I come!",
+          "uuid": "742c00cb-965e-4173-84eb-edc5718dd8ee",
+          "x": 84,
+          "y": 12,
+          "icon": "BigReactors:BRMetalBlock size(1) dmg(0)",
+          "requirements": [
+            "quest053"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "BigReactors:BRMetalBlock size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest055",
+          "name": "Cyanite",
+          "description": "Yucks... The radioactive byproduct of the reactor. Perhaps I could possibly re-process it?",
+          "uuid": "5c506201-9647-451c-bda9-79dec4efc856",
+          "x": 116,
+          "y": 12,
+          "icon": "BigReactors:BRMetalBlock size(1) dmg(1)",
+          "requirements": [
+            "quest054"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "BigReactors:BRMetalBlock size(1) dmg(1)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest056",
+          "name": "Blutonium",
+          "description": "Finally! I have managed to turn the radioactive byproduct waste into something that is simillar to what I have started off with, and is definitely as effective.",
+          "uuid": "80c55e93-f3c3-4f21-87dd-b3f5e3abd575",
+          "x": 146,
+          "y": 12,
+          "icon": "BigReactors:BRMetalBlock size(1) dmg(3)",
+          "requirements": [
+            "quest055"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "BigReactors:BRMetalBlock size(1) dmg(3)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest057",
+          "name": "Ludicrite",
+          "description": "I need to craft some of these ludicrite blocks, which I can craft using radioactive waste (Blutonium), emeralds, ender pearls and \"monster core\" (Nether Star) or with radioactive waste (Blutonium), blaze rods and enderium. Using ludicrite, I can make one of the best turbines! These turbines produce far more energy than my previous nuclear reactors do (based on efficiency per amount of fuel). However, in order for a turbine to function, I need to build a steam-producing reactor. All I need to do is modify my current reactor to be able to produce steam!",
+          "uuid": "6b06b671-c370-4d4c-9695-a2d068fcfff9",
+          "x": 176,
+          "y": 12,
+          "icon": "BigReactors:BRMetalBlock size(1) dmg(4)",
+          "requirements": [
+            "quest056"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "BigReactors:BRMetalBlock size(1) dmg(4)",
+                  "required": 1,
+                  "precision": "ORE_DICTIONARY"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(1)"
+          ]
+        },
+        {
+          "id": "quest143",
+          "name": "Electrical Steel",
+          "description": "Electrical steel is an alloy created using iron, pulverized coal and silicon. It is mainly used in the making of lower-grade machinery, such as the capacitor and combustion generator.",
+          "uuid": "87212250-d954-42a0-ae3f-e61c393f4e3a",
+          "x": 106,
+          "y": 47,
+          "icon": "EnderIO:blockIngotStorage size(1) dmg(0)",
+          "requirements": [
+            "quest025"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "EnderIO:blockIngotStorage size(1) dmg(0)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest144",
+          "name": "Dark Steel",
+          "description": "Dark steel is an alloy created using iron, pulverized coal and obsidian. It is mainly used in the making of semi-advanced machines and mechanical items, such as the staff of travelling, telepad block and killer joe.",
+          "uuid": "79c35d6a-0df6-4607-8496-3a0487c718e7",
+          "x": 134,
+          "y": 47,
+          "icon": "EnderIO:blockIngotStorage size(1) dmg(6)",
+          "requirements": [
+            "quest143"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "EnderIO:blockIngotStorage size(1) dmg(6)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest145",
+          "name": "Redstone Alloy",
+          "description": "Redstone alloy is an alloy created using redstone and silicon. It is mainly used in the making of low-grade conduits and upgades, such as the insulated redstone conduit, network conduit (OC) and speed upgrade.",
+          "uuid": "1eb61ae9-360c-4231-85e1-04874a4212ab",
+          "x": 162,
+          "y": 47,
+          "icon": "EnderIO:blockIngotStorage size(1) dmg(3)",
+          "requirements": [
+            "quest144"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "EnderIO:blockIngotStorage size(1) dmg(3)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest146",
+          "name": "Conductive Iron",
+          "description": "Conductive iron is an alloy created using iron and redstone. It is mainly used in the making of low-grade mechanical items, such as the energy conduit and basic capacitor pack.",
+          "uuid": "0215b241-0976-4742-98e0-c698a18f850e",
+          "x": 190,
+          "y": 47,
+          "icon": "EnderIO:blockIngotStorage size(1) dmg(4)",
+          "requirements": [
+            "quest145"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "EnderIO:blockIngotStorage size(1) dmg(4)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest147",
+          "name": "Pulsating Iron",
+          "description": "Pulsating iron is an alloy created using iron and an ender pearl. It is mainly used in the making of semi-advanced items, such as the advanced photovoltaic cell and pulsating crystal.",
+          "uuid": "26bee566-a672-489d-8745-7503b136fb6c",
+          "x": 219,
+          "y": 47,
+          "icon": "EnderIO:blockIngotStorage size(1) dmg(5)",
+          "requirements": [
+            "quest146"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "EnderIO:blockIngotStorage size(1) dmg(5)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        },
+        {
+          "id": "quest148",
+          "name": "Energetic Alloy",
+          "description": "Energetic alloy is an alloy created using gold, redstone and glowstone. It is mainly used in the making of semi-advanced mechanical items, such as the double-layer capacitor, enhanced energy conduit, photovoltaic cell and capacitor bank.",
+          "uuid": "a20b7b03-0efd-4247-bffb-822d3373aa2f",
+          "x": 247,
+          "y": 47,
+          "icon": "EnderIO:blockIngotStorage size(1) dmg(1)",
+          "requirements": [
+            "quest147"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "EnderIO:blockIngotStorage size(1) dmg(1)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(1)"
+          ]
+        },
+        {
+          "id": "quest149",
+          "name": "Vibrant Alloy",
+          "description": "Vibrant alloy is an alloy created using energetic alloy and an ender pearl. It is mainly used in the making of advanced mechanical items, such as the octadic capacitor, ender energy conduit, advanced photovoltaic cell and vibrant capacitor bank.",
+          "uuid": "1df8ea7f-3cac-4955-a90c-ad527dc980fb",
+          "x": 247,
+          "y": 16,
+          "icon": "EnderIO:blockIngotStorage size(1) dmg(2)",
+          "requirements": [
+            "quest148"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "EnderIO:blockIngotStorage size(1) dmg(2)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(1)"
+          ]
+        },
+        {
+          "id": "quest151",
+          "name": "Soularium",
+          "description": "Soularium is an alloy created using gold and soul sand. It is mainly used in the making of soul-related items, such as the soul binder, slice'n'splice and soul vial.",
+          "uuid": "4ad84557-8d14-4b27-af11-ea79cab6100d",
+          "x": 276,
+          "y": 47,
+          "icon": "EnderIO:blockIngotStorage size(1) dmg(7)",
+          "requirements": [
+            "quest148"
+          ],
+          "repeatInfo": {
+            "type": "NONE"
+          },
+          "triggerType": "NONE",
+          "triggerTasks": 0,
+          "tasks": [
+            {
+              "id": "task000",
+              "type": "CONSUME",
+              "name": "Consume task",
+              "description": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+              "requirements": [
+                {
+                  "item": "EnderIO:blockIngotStorage size(1) dmg(7)",
+                  "required": 1,
+                  "precision": "PRECISE"
+                }
+              ]
+            }
+          ],
+          "reward": [
+            "HardcoreQuesting:bags size(1) dmg(0)"
+          ]
+        }
+      ]
+    }
