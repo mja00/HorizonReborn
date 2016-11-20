@@ -1,4 +1,5 @@
 //#MARKER REMOVE
+recipes.remove(<Mariculture:machines_multi_rendered:3>);
 recipes.remove(<minecraft:bucket>);
 recipes.remove(<minecraft:bucket>);
 recipes.remove(<minecraft:bucket>);
@@ -28,6 +29,9 @@ recipes.remove(<minecraft:iron_pickaxe>);
 recipes.remove(<minecraft:golden_pickaxe>);
 recipes.remove(<minecraft:diamond_pickaxe>);
 //#MARKER ADD SHAPED
+recipes.addShaped(<Mariculture:machines_multi_rendered:3>, [[<ore:plateCopper>, null, <ore:plateCopper>], [<ore:plateCopper>, null, <ore:plateCopper>], [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
+recipes.addShaped(<Mariculture:machines_multi_rendered:3>, [[<ore:plateCopper>, null, <ore:plateCopper>], [<ore:plateCopper>, null, <ore:plateCopper>], [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
+recipes.addShaped(<Mariculture:machines_multi_rendered:3>, [[<ore:plateCopper>, null, <ore:plateCopper>], [<ore:plateCopper>, null, <ore:plateCopper>], [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
 recipes.addShaped(<minecraft:bucket>, [[<IC2:itemPlates:4>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 recipes.addShaped(<minecraft:wooden_hoe>, [[<ore:plankWood>, <ore:plankWood>, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<minecraft:stone_hoe>, [[<ore:cobblestone>, <ore:cobblestone>, null], [null, <ore:stickWood>, null], [null, null, <ore:stickWood>]]);
